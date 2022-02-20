@@ -22,7 +22,7 @@
                 @endif
                 style="background: #fff;">
                 <div class="font-italic">
-                    <a href={{ $item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
+                    <a href={{ "project/".$item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-9">
@@ -75,7 +75,7 @@
                 @endif
                 style="background: #fff;">
                 <div class="font-italic">
-                    <a href={{ $item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
+                    <a href={{ "project/".$item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-9">
@@ -129,7 +129,7 @@
                 @endif
                 style="background: #fff;">
                 <div class="font-italic">
-                    <a href={{ $item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
+                    <a href={{ "project/".$item->project->id}} class="project_detail"> {{ $item->project->name }}</a>
                 </div>
                 <div class="row justify-content-between">
                     <div class="col-9">
